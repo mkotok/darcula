@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style-scheme id="darcula" _name="Darcula" version="1.0">
+  <author>Malcolm Kotok</author>
+  <_description>Dark color scheme based on PyCharm Darcula theme</_description>
+
+  <!-- Colors -->
+  <color name="text_color"                 value="#A9B7C6"/>
+  <color name="main_bg_color"              value="#2B2B2B"/>
+  <color name="comment_color"              value="#808080"/>
+  <color name="number_color"               value="#6897BB"/>
+  <color name="string_color"               value="#6A8759"/>
+  <color name="keyword_color"              value="#CC7832"/>
+  <color name="error_color"                value="#D1243B"/>
+  <color name="function_def"               value="#FFC66D"/>
+  <color name="builtin_color"              value="#8888C6"/>
+  <color name="pycharm_self"               value="#BBB529"/>
+  <color name="tag_color"                  value="#E8BF6A"/>
+
+  <!-- Global Settings -->
+  <style name="text"                       foreground="text_color" background="main_bg_color"/>
+  <style name="selection"                  foreground="text_color" background="#214283"/>
+  <style name="cursor"                     foreground="#BBBBBB"/>
+  <style name="current-line"               background="#323232"/>
+  <style name="line-numbers"               foreground="#606366" background="#313335"/>
+  <style name="bracket-match"              foreground="#FFEF28" background="#3B514D"/>
+  <style name="bracket-mismatch"           foreground="error_color"/>
+  <style name="search-match"               background="#32593D"/>
+  <style name="background-pattern"         background="#4D4D4D"/>
+  <style name="draw-spaces"                foreground="#505050"/>
+  <style name="right-margin"               background="main_bg_color"/>
+
+  <!-- Comments -->
+  <style name="def:comment"                foreground="comment_color"/>
+  <style name="def:shebang"                foreground="text_color" bold="true"/>
+  
+  <!-- Unknown defs -->
+  <style name="def:doc-comment-element"    foreground="comment_color" italic="true"/>
+  <style name="def:note"                   foreground="#A8C023" italic="true"/>
+  <style name="def:constant"               foreground="number_color"/>
+  <style name="def:special-constant"       foreground="number_color"/>
+  <style name="def:error"                  foreground="text_color" background="error_color"/>
+  <style name="def:underlined"             italic="true" underline="true"/>
+
+  <!-- Other -->
+  <style name="def:string"                 foreground="string_color"/>
+  <style name="def:character"              foreground="string_color"/>
+  <style name="def:special-char"           foreground="keyword_color"/>
+  
+  <style name="def:number"                 foreground="number_color"/>
+  <style name="def:decimal"                foreground="number_color"/>
+  <style name="def:floating-point"         foreground="number_color"/>
+  <style name="def:complex"                foreground="number_color"/>
+  <style name="def:base-n-integer"         foreground="number_color"/>
+  
+  <style name="def:boolean"                foreground="builtin_color"/>
+
+  <style name="def:builtin"                foreground="builtin_color"/>
+  <style name="def:special-constant"       foreground="builtin_color"/>
+  <style name="def:type"                   foreground="builtin_color"/>
+  <style name="def:keyword"                foreground="keyword_color"/>
+  <style name="def:function"               foreground="function_def"/>
+  <style name="def:preprocessor"           foreground="keyword_color"/>
+  <style name="def:identifier"             foreground="#94558D"/>
+  <style name="def:operator"               foreground="keyword_color"/>
+  <style name="def:statement"              foreground="keyword_color" bold="true"/>
+	
+  <!-- Language Specific :: See /usr/share/gtksourceview-3.0/language-specs -->
+  <style name="python:string"              foreground="#A5C261"/>
+  <style name="python:multiline-string"    foreground="#629755"/>
+  <style name="python:decorator"           foreground="pycharm_self"/>
+  <style name="python:class-name"          foreground="text_color"/>
+  
+  <style name="xml:attribute-name"         foreground="#BABABA"/>
+  <style name="xml:entity"                 foreground="#6D9CBE"/>
+  <style name="xml:attribute-value"        foreground="string_color"/>
+  <style name="xml:cdata-delim"            foreground="pycharm_self"/>
+  <style name="xml:element-name"           foreground="tag_color"/>
+  <style name="xml:tag"                    foreground="tag_color"/>
+  <style name="xml:doctype"                foreground="tag_color"/>
+  <style name="xml:namespace"              foreground="tag_color"/>
+  <style name="xml:processing-instruction" foreground="tag_color"/>
+	
+</style-scheme>
